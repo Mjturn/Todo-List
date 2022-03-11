@@ -6,6 +6,14 @@
     --green: #33FF80;
 }
 
+@media hand-held
+{
+    #input, button
+    {
+        font-size: 14px;
+    }
+}
+
 body
 {
     background-image: linear-gradient(120deg, var(--purple), var(--green));
